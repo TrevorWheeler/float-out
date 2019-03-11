@@ -1,9 +1,6 @@
 {
     "version": 2,
     "name": "float-out",
-    "alias": [
-        "trev.work"
-    ],
     "builds": [
         {
             "src": "package.json",
