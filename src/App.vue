@@ -13,7 +13,6 @@
     <div class="container content">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <!-- <h1 class="title">Current Profit: ${{finalResult}}</h1> -->
           <div class="field">
             <label class="label">5¢</label>
             <div class="control">
@@ -24,7 +23,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of five cents</p>
+            <p class="help is-info">Please enter the total number of five cents</p>
           </div>
 
           <div class="field">
@@ -37,7 +36,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of ten cents</p>
+            <p class="help is-info">Please enter the total number of ten cents</p>
           </div>
 
           <div class="field">
@@ -50,7 +49,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of twenty cents</p>
+            <p class="help is-info">Please enter the total number of twenty cents</p>
           </div>
 
           <div class="field">
@@ -63,7 +62,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of fifty cents</p>
+            <p class="help is-info">Please enter the total number of fifty cents</p>
           </div>
 
           <div class="field">
@@ -76,7 +75,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of one dollar</p>
+            <p class="help is-info">Please enter the total number of one dollar</p>
           </div>
 
           <div class="field">
@@ -89,7 +88,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of two dollar</p>
+            <p class="help is-info">Please enter the total number of two dollar</p>
           </div>
 
           <div class="field">
@@ -102,7 +101,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of five dollar</p>
+            <p class="help is-info">Please enter the total number of five dollar</p>
           </div>
 
           <div class="field">
@@ -115,7 +114,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of ten dollar</p>
+            <p class="help is-info">Please enter the total number of ten dollar</p>
           </div>
 
           <div class="field">
@@ -128,7 +127,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of twenty dollar</p>
+            <p class="help is-info">Please enter the total number of twenty dollar</p>
           </div>
 
           <div class="field">
@@ -141,7 +140,7 @@
                 placeholder="total ammount"
               >
             </div>
-            <p class="help is-success">Please enter the total number of fifty dollar</p>
+            <p class="help is-info">Please enter the total number of fifty dollar</p>
           </div>
 
           <div class="field is-grouped">
@@ -172,7 +171,6 @@ export default {
       tenDollar: "",
       twentyDollar: "",
       fiftyDollar: ""
-      // result: ""
     };
   },
 
@@ -254,11 +252,6 @@ export default {
   color: #2c3e50;
   padding: 100px 0 0 0;
 }
-
-.content {
-  padding: 0 20px;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -272,5 +265,13 @@ nav {
     align-self: center;
     font-weight: 600;
   }
+}
+
+.content {
+  padding: 0 20px;
+}
+
+.button {
+  margin: 1em 0 0 0;
 }
 </style>
